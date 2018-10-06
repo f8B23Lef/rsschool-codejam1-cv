@@ -57,14 +57,18 @@ img {
 }
 
 section {
-  border-top: 1px groove rgba(209, 179, 223, 0.7); 
+  border-bottom: 1px groove rgba(209, 179, 223, 0.7); 
   /* margin-bottom: 10px; */
   padding: 10px 0px;
 }
 
 section:first-child {
-  border-top: none;
+  border-bottom: none;
   margin-bottom: 20px;
+}
+
+section:last-child {
+  border-bottom: none;
 }
 
 .section-title {
@@ -89,4 +93,10 @@ section:first-child {
   font-size: 14px;
   font-style: italic;
   margin-bottom: 3px;
+}
+
+footer {
+  border-top: 3px solid rgba(108, 26, 147, 1); 
+  background: rgba(206, 242, 242, 1);
+  height: 70px;
 }
