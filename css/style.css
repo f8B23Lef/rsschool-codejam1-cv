@@ -16,18 +16,18 @@
   border-bottom: 3px solid rgba(108, 26, 147, 1); 
   background: rgba(206, 242, 242, 1);
 }
-/*
+
  .contact-inf div {
   display: inline-block;
   margin: 20px;
 }
-*/
+
 img {
   width: 150px;
   height: 150px;
   border-radius: 150px;
 }
-/*
+
 .name {
   position: relative;
   bottom: 40px;
@@ -46,4 +46,4 @@ img {
 
 .list-unstyled {
   list-style: none;
-} */
+} 
