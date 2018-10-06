@@ -51,3 +51,42 @@ img {
 .contact ul li a:hover { 
 	color: rgba(168, 54, 220, 1);
 }
+
+.main-inf {
+  padding: 30px;
+}
+
+section {
+  border-top: 1px groove rgba(209, 179, 223, 0.7); 
+  /* margin-bottom: 10px; */
+  padding: 10px 0px;
+}
+
+section:first-child {
+  border-top: none;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  float: left;
+  width: 25%;
+}
+
+.section-content {
+  float: right;
+  width: 75%;
+}
+
+.clear {
+  clear: both;
+}
+
+.experience {
+  margin-bottom: 25px;
+}
+
+.period {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 3px;
+}
