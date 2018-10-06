@@ -17,7 +17,7 @@
   background: rgba(206, 242, 242, 1);
 }
 
- .contact-inf div {
+.contact-inf div {
   display: inline-block;
   margin: 20px;
 }
@@ -46,4 +46,8 @@ img {
 
 .list-unstyled {
   list-style: none;
-} 
+}
+
+.contact ul li a:hover { 
+	color: rgba(168, 54, 220, 1);
+}
